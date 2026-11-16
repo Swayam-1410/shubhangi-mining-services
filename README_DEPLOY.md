@@ -1,20 +1,7 @@
-# Shubhangi Mining Services website
+# Shubhangi Mining Services
 
-Static site: no build step, no framework, no database.
+Static site. For GitHub Pages select `main` and `/(root)` under Settings → Pages. Site assets use relative paths so the same files can be deployed at a project path or to the custom domain.
 
-## GitHub Pages
-1. Create a public GitHub repository.
-2. Upload the contents of this folder so `index.html` is at repository root.
-3. Settings > Pages > Deploy from branch > `main` / `(root)`.
-4. Test the `github.io` URL.
-5. When ready, set custom domain to `shubhangimining.com` and configure GoDaddy DNS for GitHub Pages.
-6. Enable Enforce HTTPS after DNS resolves.
+The enquiry form opens an email draft addressed to `business@shubhangimining.com`. Confirm that the mailbox or alias accepts external mail. To accept submissions directly in the browser, configure a verified form endpoint before replacing the mail draft flow.
 
-## Enquiry form
-The form uses FormSubmit to email submissions to Sandeep Bhargava's Gmail without displaying the address on the page.
-The first live submission typically triggers a one-time activation/confirmation email from FormSubmit. Confirm it once; subsequent enquiries are delivered automatically.
-
-## Editing
-- Main text/content: `index.html`
-- Design: `assets/styles.css`
-- Interaction/form handling: `assets/app.js`
+Verify the Search Console domain property using the TXT token Google issues for that property, then submit `https://shubhangimining.com/sitemap.xml`.
